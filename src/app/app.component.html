@@ -1,3 +1,74 @@
-<ion-app>
-  <ion-router-outlet></ion-router-outlet>
+<ion-app [class.dark-theme]="dark">
+    <ion-split-pane contentId="main-content">
+        <ion-menu contentId="main-content" type="overlay">
+            <ion-content>
+                <!--El nombre del user es lo anterior al @ del mail-->
+                <ion-note class="user">juan.gonzalez</ion-note>
+                <ion-list lines="none">
+                    <!--Bloque de Academicas-->
+                    <ion-menu-toggle autoHide="false">
+                        <ion-item routerLink="/carreras" routerLinkActive="active" routerDirection="root" detail="false">
+                            <ion-icon slot="start" [name]="'library'"></ion-icon>
+                            <ion-label>Materias</ion-label>
+                        </ion-item>
+                        <ion-item routerLink="/horarios" routerLinkActive="active" routerDirection="root" detail="false">
+                            <ion-icon slot="start" [name]="'time'"></ion-icon>
+                            <ion-label>Horarios</ion-label>
+                        </ion-item>
+                    </ion-menu-toggle>
+                </ion-list>
+
+                <!--Bloque de Proyectos-->
+                <ion-list lines="none">
+                    <ion-list-header>Proyectos</ion-list-header>
+                    <ion-menu-toggle autoHide="false">
+                        <ion-item routerLink="/proyectos-extension" routerLinkActive="active" routerDirection="root" detail="false">
+                            <ion-icon slot="start" [name]="'glasses' + '-outline'"></ion-icon>
+                            <ion-label>Extensión</ion-label>
+                        </ion-item>
+
+                        <ion-item routerLink="/proyectos-investigacion" routerLinkActive="active" routerDirection="root" detail="false">
+                            <ion-icon slot="start" [name]="'flask'"></ion-icon>
+                            <ion-label>Investigación</ion-label>
+                        </ion-item>
+                    </ion-menu-toggle>
+                </ion-list>
+
+                <!--Bloque de Sitios-->
+                <ion-list lines="none">
+                    <ion-list-header>Sitios</ion-list-header>
+
+                    <ion-item button (click)="close('https://pedco.uncoma.edu.ar/')">
+                        <ion-icon slot="start" [name]="'link'"></ion-icon>
+                        <ion-label>PEDCO</ion-label>
+                    </ion-item>
+
+                    <ion-item button (click)="close('http://siufai.uncoma.edu.ar/informatica/')">
+                        <ion-icon slot="start" [name]="'link'"></ion-icon>
+                        <ion-label>SIU</ion-label>
+                    </ion-item>
+                </ion-list>
+
+                <!--Bloque de utilidades-->
+                <ion-list>
+                    <ion-item lines="none">
+                        <ion-icon slot="start" [name]="'moon'"></ion-icon>
+                        <ion-label>
+                            Modo oscuro
+                        </ion-label>
+                        <ion-toggle [(ngModel)]="dark"></ion-toggle>
+                    </ion-item>
+                    <ion-menu-toggle>
+                        <ion-item routerLink="/acerca" routerLinkActive="active" routerDirection="root" detail="false" lines="none">
+                            <ion-icon slot="start" [name]="'help'"></ion-icon>
+                            <ion-label>Ayuda</ion-label>
+                        </ion-item>
+                    </ion-menu-toggle>
+                </ion-list>
+
+            </ion-content>
+        </ion-menu>
+        <ion-router-outlet id="main-content"></ion-router-outlet>
+    </ion-split-pane>
+
 </ion-app>
