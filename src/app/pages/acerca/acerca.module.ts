@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 import { AcercaPageRoutingModule } from './acerca-routing.module';
-
+import { PopoverPage } from './acerca-popover/acerca-popover';
 import { AcercaPage } from './acerca.page';
 
 @NgModule({
@@ -15,6 +15,8 @@ import { AcercaPage } from './acerca.page';
     IonicModule,
     AcercaPageRoutingModule
   ],
-  declarations: [AcercaPage]
+  declarations: [AcercaPage, PopoverPage],
+  entryComponents: [PopoverPage],
+  bootstrap: [AcercaPage],
 })
 export class AcercaPageModule {}

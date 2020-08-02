@@ -1,9 +1,31 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>acerca</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
+    <ion-header class="ion-no-border">
+        <ion-toolbar>
+            <ion-buttons slot="start">
+                <ion-back-button text="" defaultHref="/"></ion-back-button>
+            </ion-buttons>
+
+            <ion-buttons slot="end">
+                <ion-button (click)="presentPopover($event)">
+                    <ion-icon slot="icon-only" ios="ellipsis-horizontal" md="ellipsis-vertical"></ion-icon>
+                </ion-button>
+            </ion-buttons>
+
+        </ion-toolbar>
+    </ion-header>
+
+    <div class="about-header">
+        <img src="../../../assets/img/about/uncoma.jpg" />
+    </div>
+
+    <div class="about-info">
+        <h3 class="ion-padding-top ion-padding-start">Acerca de FAIapp</h3>
+
+        <p class="ion-padding-start ion-padding-end">
+            Ésta aplicación surge de la necesidad de poder brindar ayuda a los estudiantes de la Facultad de Informática con sus trabajos prácticos, parciales y finales. Creemos que la información que poseemos debe ser compartida entre todos los alumnos de la universidad
+            para así poder seguir avanzando con las carreras y lograr los objetivos que nos proponemos.
+        </p>
+    </div>
+
 
 </ion-content>
