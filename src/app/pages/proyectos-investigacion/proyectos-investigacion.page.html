@@ -1,9 +1,115 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>proyectos-investigacion</ion-title>
-  </ion-toolbar>
+<ion-header class="ion-no-border">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button text="" defaultHref="/"></ion-back-button>
+        </ion-buttons>
+        <ion-title></ion-title>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content>
+    <div class="about-header">
+        <img src="../../../assets/img/fotos-investigacion/investigacion.jpg" />
+    </div>
+
+    <div class="about-info">
+
+        <h3 class="ion-padding-top ion-padding-start">Información</h3>
+
+        <p class="ion-padding-start ion-padding-end">
+            Los proyectos de investigación son procedimientos científicos destinados a recabar información y formular hipótesis sobre un determinado fenómeno social o científico. Éstos proyectos son actividades educacionales para estudiantes donde se involucran experimentos
+            o construcciones de modelos en alguna de las disciplinas de la ciencia.
+        </p>
+
+        <h3 class="ion-padding-top ion-padding-start">Proyectos Vigentes</h3>
+
+        <!--TODO: cards clickeables que routeen a su proyecto correspondiente -->
+        <div class="card-container">
+            <ion-card (click)="gotoCacye()" class="card">
+                <img src="../../../assets/img/fotos-investigacion/CACyE.jpg" />
+                <ion-card-header class="card-header">
+                    <ion-card-subtitle>Ejecución: 2018-2021</ion-card-subtitle>
+                    <ion-card-title>Computación Aplicada a las Ciencias y Educación</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+
+                </ion-card-content>
+            </ion-card>
+
+            <ion-card (click)="gotoAimfyae()" class="card">
+                <img src="../../../assets/img/fotos-investigacion/AIMFyAE.jpg" />
+                <ion-card-header class="card-header">
+                    <ion-card-subtitle>Ejecución: 2017-2020</ion-card-subtitle>
+                    <ion-card-title>Agentes Inteligentes, Modelos Formales y Aplicaciones para la Educación</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+
+                </ion-card-content>
+            </ion-card>
+
+            <ion-card (click)="gotoAeyws()" class="card">
+                <img src="../../../assets/img/fotos-investigacion/AEyWS.jpg" />
+                <ion-card-header class="card-header">
+                    <ion-card-subtitle>Ejecución: 2017-2020</ion-card-subtitle>
+                    <ion-card-title>Agentes Inteligentes y Web Semantica</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+
+                </ion-card-content>
+            </ion-card>
+
+            <ion-card (click)="gotoAciis()" class="card">
+                <img src="../../../assets/img/fotos-investigacion/ACIIS.jpg" />
+                <ion-card-header class="card-header">
+                    <ion-card-subtitle>Ejecución: 2017-2020</ion-card-subtitle>
+                    <ion-card-title>Aplicaciones de Cómputo Intensivo con Impacto Social</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+
+                </ion-card-content>
+            </ion-card>
+
+            <ion-card (click)="gotoCap()" class="card">
+                <img src="../../../assets/img/fotos-investigacion/CAP.jpg" />
+                <ion-card-header class="card-header">
+                    <ion-card-subtitle>Ejecución: 2018-2021</ion-card-subtitle>
+                    <ion-card-title>Computación de Altas Prestaciones</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+                </ion-card-content>
+            </ion-card>
+
+            <ion-card (click)="gotoIeyachysse()" class="card">
+                <img src="../../../assets/img/fotos-investigacion/IEyACHySSE.jpg" />
+                <ion-card-header class="card-header">
+                    <ion-card-subtitle>Ejecución: 2017-2020</ion-card-subtitle>
+                    <ion-card-title>Identificación, Evaluación y Adaptación de Componentes de Hardware y Software para Sistemas Embebidos</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+                </ion-card-content>
+            </ion-card>
+
+            <ion-card (click)="gotoVdyrv()" class="card">
+                <img src="../../../assets/img/fotos-investigacion/VDyRV.jpg" />
+                <ion-card-header class="card-header">
+                    <ion-card-subtitle>Ejecución: 2017-2020</ion-card-subtitle>
+                    <ion-card-title>Visualización de Datos y Realidad Virtual</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+                </ion-card-content>
+            </ion-card>
+
+            <ion-card (click)="gotoDsbr()" class="card">
+                <img src="../../../assets/img/fotos-investigacion/DSBR.jpg" />
+                <ion-card-header class="card-header">
+                    <ion-card-subtitle>Ejecución: 2017-2020</ion-card-subtitle>
+                    <ion-card-title>Desarrollo de Software Basado en Reuso</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+                </ion-card-content>
+            </ion-card>
+        </div>
+
+    </div>
 
 </ion-content>
