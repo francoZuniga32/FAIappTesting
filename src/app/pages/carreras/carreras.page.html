@@ -1,9 +1,37 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>carreras</ion-title>
-  </ion-toolbar>
+<ion-header class="ion-no-border">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button text="" defaultHref="/"></ion-back-button>
+        </ion-buttons>
+        <ion-title></ion-title>
+    </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content fullscreen class="ion-padding">
+    <!--TODO: dropdown menus usando el JSON de carreras y años,
+  listado de materias dependiendo de la carrera y el año seleccionado-->
+    <!--Seleccion de carrera-->
+    <div>
+        <ion-item class="carreerSelectionButton">
+            <ion-label position="floating">Carrera</ion-label>
+            <ion-select interface="action-sheet" placeholder="Seleccione su carrera" cancel-text="Cancelar">
+                <ion-select-option *ngFor="let c of carreras">{{c.name}}</ion-select-option>
+            </ion-select>
+        </ion-item>
+    </div>
+
+    <!--Seleccion de año-->
+    <!--
+      <div *ngFor="let m of major">
+          <ion-item class=" yearSelectionButton ">
+              <ion-label position="floating">Año</ion-label>
+              <ion-select interface="action-sheet" placeholder="Seleccione su año" cancel-text="Cancelar">
+                  <ion-select-option *ngFor="let yName of m.year">{{yName.name}}</ion-select-option>
+              </ion-select>
+          </ion-item>
+      </div>
+  -->
+
+    <!--Seleccion de materia-->
 
 </ion-content>

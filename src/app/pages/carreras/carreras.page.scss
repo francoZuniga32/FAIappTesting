@@ -1,0 +1,38 @@
+ion-toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    --background: transparent;
+    --color: white;
+}
+
+ion-toolbar ion-button,
+ion-toolbar ion-back-button,
+ion-toolbar ion-menu-button {
+    --color: white;
+}
+
+ion-content {
+    --background: url(../../../assets/img/carreras-materias/notebook.jpg) no-repeat center/cover fixed;
+}
+
+.carreerSelectionButton {
+    margin-top: 15%;
+    border-radius: 10px;
+}
+
+.yearSelectionButton {
+    margin-top: 1.5%;
+    border-radius: 10px;
+}
+
+.materias1Q {
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+.materias2Q {
+    margin-top: 5%;
+    border-radius: 10px;
+}
