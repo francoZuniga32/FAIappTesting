@@ -1,9 +1,77 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>proyectos-extension</ion-title>
-  </ion-toolbar>
+<ion-header class="ion-no-border">
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button text="" defaultHref="/"></ion-back-button>
+        </ion-buttons>
+        <ion-title></ion-title>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content>
+    <div class="about-header">
+        <img src="../../../assets/img/fotos-extension/extension.png" />
+    </div>
+
+    <div class="about-info">
+
+        <h3 class="ion-padding-top ion-padding-start">Información</h3>
+
+        <p class="ion-padding-start ion-padding-end">
+            Los proyectos de extensión universitaria representan un tipo particular de proyecto. Dicha particularidad está dada básicamente por dos elementos: en primer lugar, por la voluntad de contribuir a una determinada transformación social (dado que los proyectos
+            de extensión pueden entenderse como proyectos sociales) y, en segundo lugar, por el hecho de que se conciben y desarrollan en torno a la idea de integralidad, en sus tres componentes: de funciones universitarias (articulación entre extensión,
+            investigación y enseñanza), de disciplinas (interdisciplina) y de saberes (actores universitarios y actores no universitarios).
+        </p>
+
+        <h3 class="ion-padding-top ion-padding-start">Proyectos Vigentes</h3>
+
+        <!--Bloque de tarjetas para cada proyecto-->
+        <div class="card-container">
+            <ion-card (click)="gotoEscuelaMedia()" class="card">
+                <img src="../../../assets/img/fotos-extension/escuela-media.jpg" />
+                <ion-card-header class="card-header">
+                    <ion-card-subtitle>Vamos a la Escuela</ion-card-subtitle>
+                    <ion-card-title>Acercando las Ciencias de la Computación a la Escuela Media</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+
+                </ion-card-content>
+            </ion-card>
+
+            <ion-card (click)="gotoAgentesRobots()" class="card">
+                <img src="../../../assets/img/fotos-extension/frankestitos.jpg" />
+                <ion-card-header class="card-header">
+                    <ion-card-subtitle>Agentes Robots</ion-card-subtitle>
+                    <ion-card-title>Divulgando Computación en la Escuela Media</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+
+                </ion-card-content>
+            </ion-card>
+
+            <ion-card (click)="gotoTorneoProgramacion()" class="card">
+                <img src="../../../assets/img/fotos-extension/torneo.jpg" />
+                <ion-card-header class="card-header">
+                    <ion-card-subtitle>Torneos</ion-card-subtitle>
+                    <ion-card-title>Resolución de Problemas y Programación en Escuela Media</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+
+                </ion-card-content>
+            </ion-card>
+
+            <ion-card (click)="gotoRealidadVirtual_RealidadAumentada()" class="card">
+                <img src="../../../assets/img/fotos-extension/ar-vr.jpg" />
+                <ion-card-header class="card-header">
+                    <ion-card-subtitle>Enseñar y aprender con TIC</ion-card-subtitle>
+                    <ion-card-title>Realidad Aumenta y Realidad Virtual en Contexos Educativos</ion-card-title>
+                </ion-card-header>
+                <ion-card-content>
+
+                </ion-card-content>
+            </ion-card>
+
+        </div>
+
+    </div>
 
 </ion-content>
