@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { GameTabPageRoutingModule } from './game-tab-routing.module';
+import { PomodoroPageRoutingModule } from './pomodoro-routing.module';
 
-import { GameTabPage } from './game-tab.page';
+import { PomodoroPage } from './pomodoro.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    GameTabPageRoutingModule
+    PomodoroPageRoutingModule
   ],
-  declarations: [GameTabPage]
+  declarations: [PomodoroPage]
 })
-export class GameTabPageModule {}
+export class PomodoroPageModule {}

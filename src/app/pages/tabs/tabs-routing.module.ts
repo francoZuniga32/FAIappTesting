@@ -28,12 +28,12 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'game',
+        path: 'pomodoro',
         children: [
           {
             path: '',
             loadChildren: () =>
-              import('../game-tab/game-tab-routing.module').then(m => m.GameTabPageRoutingModule)
+              import('../pomodoro/pomodoro.module').then(m => m.PomodoroPageModule)
           }
         ]
       },
