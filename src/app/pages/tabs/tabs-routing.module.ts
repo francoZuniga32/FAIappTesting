@@ -28,6 +28,16 @@ const routes: Routes = [
         ]
       },
       {
+        path: 'game',
+        children: [
+          {
+            path: '',
+            loadChildren: () =>
+              import('../game-tab/game-tab-routing.module').then(m => m.GameTabPageRoutingModule)
+          }
+        ]
+      },
+      {
         path: 'notifications',
         children: [
           {
