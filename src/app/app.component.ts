@@ -10,7 +10,6 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  dark = false;
 
   constructor(
     private platform: Platform,
@@ -33,26 +32,6 @@ export class AppComponent implements OnInit {
   // Modulo para abrir links en un navegador del dispositivo
   close(url: string) {
     window.open(url, '_blank');
-  }
-
-  // Modulos para cambiar de Modo Claro a Modo Oscuro
-  onClick(event) {
-    const systemDark = window.matchMedia('(prefers-color-scheme: dark)');
-    // tslint:disable-next-line: deprecation
-    systemDark.addListener(this.colorTest);
-    if (event.detail.checked) {
-      document.body.setAttribute('data-theme', 'dark');
-    } else {
-      document.body.setAttribute('data-theme', 'light');
-    }
-  }
-
-   colorTest(systemInitiatedDark) {
-    if (systemInitiatedDark.matches) {
-      document.body.setAttribute('data-theme', 'dark');
-    } else {
-      document.body.setAttribute('data-theme', 'light');
-    }
   }
 
 }

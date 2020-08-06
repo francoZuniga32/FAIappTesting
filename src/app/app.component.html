@@ -1,5 +1,6 @@
-<ion-app [class.dark-theme]="dark">
+<ion-app>
     <ion-split-pane contentId="main-content">
+
         <ion-menu contentId="main-content" type="overlay">
             <ion-content>
                 <!--El nombre del user es lo anterior al @ del mail-->
@@ -56,8 +57,10 @@
                         <ion-label>
                             Modo oscuro
                         </ion-label>
-                        <ion-toggle [(ngModel)]="dark"></ion-toggle>
+                        <!--FIXME: arreglar el cambio de modo claro a oscuro-->
+                        <ion-toggle id="themeToggle" slot="end"></ion-toggle>
                     </ion-item>
+
                     <ion-menu-toggle>
                         <ion-item routerLink="/acerca" routerLinkActive="active" routerDirection="root" detail="false" lines="none">
                             <ion-icon slot="start" [name]="'help'"></ion-icon>
