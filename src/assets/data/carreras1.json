@@ -1,0 +1,929 @@
+[{
+        "id": "M-LCC",
+        "name": "Licenciatura en Ciencias de la Computación",
+        "year": [{
+                "id": 1,
+                "name": "Primer Año",
+                "quarter": [{
+                        "id": 1,
+                        "course": [{
+                                "id": "C-EA",
+                                "name": "Elementos de Álgebra"
+                            },
+                            {
+                                "id": "C-RPA",
+                                "name": "Resolución de Problemas y Algoritmos"
+                            },
+                            {
+                                "id": "C-IC",
+                                "name": "Introducción a la Computación"
+                            },
+                            {
+                                "id": "C-MSI",
+                                "name": "Modelados y Sistemas de la Información"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "course": [{
+                                "id": "C-DDA",
+                                "name": "Desarrollo de Algoritmos"
+                            },
+                            {
+                                "id": "C-EAL",
+                                "name": "Elementos de Álgebra Lineal"
+                            },
+                            {
+                                "id": "C-ETC",
+                                "name": "Elementos de Teoría de la Computación"
+                            },
+                            {
+                                "id": "C-MODATOS",
+                                "name": "Modelados de Datos"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Segundo Año",
+                "quarter": [{
+                        "id": 1,
+                        "course": [{
+                                "id": "C-CDI",
+                                "name": "Calculo Diferencial e Integral"
+                            },
+                            {
+                                "id": "C-POO",
+                                "name": "Programación Orientada a Objetos"
+                            },
+                            {
+                                "id": "C-EDD",
+                                "name": "Estructura de Datos"
+                            },
+                            {
+                                "id": "TC1",
+                                "name": "Teoría de la Computación I"
+                            },
+                            {
+                                "id": "IT1",
+                                "name": "Inglés Técnico I"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "course": [{
+                                "id": "MCC",
+                                "name": "Métodos Computacionales para el Cálculo"
+                            },
+                            {
+                                "id": "PC",
+                                "name": "Programación Concurrente"
+                            },
+                            {
+                                "id": "TC2",
+                                "name": "Teoría de la Computación II"
+                            },
+                            {
+                                "id": "AOC1",
+                                "name": "Arquitectura y Organización de Computadoras I"
+                            },
+                            {
+                                "id": "IR",
+                                "name": "Ingeniería de Requierimientos"
+                            },
+                            {
+                                "id": "IT2",
+                                "name": "Inglés Técnico II"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "3",
+                "name": "Tercer Año",
+                "quarter": [{
+                        "id": "1",
+                        "course": [{
+                                "id": "PE",
+                                "name": "Probabilidad y Estadística"
+                            },
+                            {
+                                "id": "PLP",
+                                "name": "Principios de Lenguages de la Programación"
+                            },
+                            {
+                                "id": "SO1",
+                                "name": "Sistemas Operativos I"
+                            },
+                            {
+                                "id": "DBD",
+                                "name": "Diseño de Base de Datos"
+                            },
+                            {
+                                "id": "AS",
+                                "name": "Arquitecturas de Software"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "course": [{
+                                "id": "AA",
+                                "name": "Análisis de Algoritmos "
+                            },
+                            {
+                                "id": "LP",
+                                "name": "Laboratorio de Programación"
+                            },
+                            {
+                                "id": "LCC",
+                                "name": "Lógica para Ciencias de la Computación"
+                            },
+                            {
+                                "id": "RC1",
+                                "name": "Redes de Computadoras I"
+                            },
+                            {
+                                "id": "GPDS",
+                                "name": "Gestión de Proyectos de Desarrollo de Software"
+                            },
+                            {
+                                "id": "GBD",
+                                "name": "Gestión de Base de Datos"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "4",
+                "name": "Cuarto Año",
+                "quarter": [{
+                        "id": "1",
+                        "course": [{
+                                "id": "LD",
+                                "name": "Leguajes Declarativos"
+                            },
+                            {
+                                "id": "CC",
+                                "name": "Complejidad Computacional"
+                            },
+                            {
+                                "id": "SP",
+                                "name": "Sistemas Paralelos"
+                            },
+                            {
+                                "id": "ES",
+                                "name": "Especificación de Software"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "course": [{
+                                "id": "DA",
+                                "name": "Diseño de Algoritmos"
+                            },
+                            {
+                                "id": "IA",
+                                "name": "Inteligencia Artificial"
+                            },
+                            {
+                                "id": "CALP",
+                                "name": "Conceptos Avanzados de Lenguajes de Programación"
+                            },
+                            {
+                                "id": "EMF",
+                                "name": "Especificación con Métodos Formales"
+                            },
+                            {
+                                "id": "APS",
+                                "name": "Aspectos Profesionales y Sociales"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "5",
+                "name": "Quinto Año",
+                "quarter": [{
+                        "id": "1",
+                        "course": [{
+                                "id": "SI",
+                                "name": "Sistemas Inteligentes"
+                            },
+                            {
+                                "id": "AIW",
+                                "name": "Agentes Inteligentes para la Web"
+                            },
+                            {
+                                "id": "DCI",
+                                "name": "Diseño de Compiladores e Intérpretes"
+                            },
+                            {
+                                "id": "LPD",
+                                "name": "Laboratorio de Programación Distribuida"
+                            },
+                            {
+                                "id": "E1",
+                                "name": "Electiva I"
+                            },
+                            {
+                                "id": "T1",
+                                "name": "Trabajo de Tesis"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "course": [{
+                                "id": "LCI",
+                                "name": "Laboratorio de Compiladores e Intérpretes"
+                            },
+                            {
+                                "id": "LIA",
+                                "name": "Laboratorio de Inteligencia Artificial"
+                            },
+                            {
+                                "id": "TMD",
+                                "name": "Técnicas para Minería de Datos"
+                            },
+                            {
+                                "id": "E2",
+                                "name": "Electiva II"
+                            },
+                            {
+                                "id": "T2",
+                                "name": "Trabajo de Tesis"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "LSI",
+        "name": "Licenciatura en Sistemas de Información",
+        "year": [{
+                "id": "1",
+                "name": "Primer Año",
+                "quarter": [{
+                        "id": "1",
+                        "course": [{
+                                "id": "EA",
+                                "name": "Elementos de Álgebra"
+                            },
+                            {
+                                "id": "RPA",
+                                "name": "Resolución de Problemas y Algoritmos"
+                            },
+                            {
+                                "id": "IC",
+                                "name": "Introducción a la Computación"
+                            },
+                            {
+                                "id": "MSI",
+                                "name": "Modelados y Sistemas de la Información"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "course": [{
+                                "id": "DDA",
+                                "name": "Desarrollo de Algoritmos"
+                            },
+                            {
+                                "id": "EAL",
+                                "name": "Elementos de Álgebra Lineal"
+                            },
+                            {
+                                "id": "ETC",
+                                "name": "Elementos de Teoría de la Computación"
+                            },
+                            {
+                                "id": "MODATOS",
+                                "name": "Modelados de Datos"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "2",
+                "name": "Segundo Año",
+                "quarter": [{
+                        "id": "1",
+                        "course": [{
+                                "id": "CDI",
+                                "name": "Calculo Diferencial e Integral"
+                            },
+                            {
+                                "id": "POO",
+                                "name": "Programación Orientada a Objetos"
+                            },
+                            {
+                                "id": "EDD",
+                                "name": "Estructura de Datos"
+                            },
+                            {
+                                "id": "TC1",
+                                "name": "Teoría de la Computación I"
+                            },
+                            {
+                                "id": "IT1",
+                                "name": "Inglés Técnico I"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "course": [{
+                                "id": "MCC",
+                                "name": "Métodos Computacionales para el Cálculo"
+                            },
+                            {
+                                "id": "PC",
+                                "name": "Programación Concurrente"
+                            },
+                            {
+                                "id": "TC2",
+                                "name": "Teoría de la Computación II"
+                            },
+                            {
+                                "id": "AOC1",
+                                "name": "Arquitectura y Organización de Computadoras I"
+                            },
+                            {
+                                "id": "IR",
+                                "name": "Ingeniería de Requierimientos"
+                            },
+                            {
+                                "id": "IT2",
+                                "name": "Inglés Técnico II"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "3",
+                "name": "Tercer Año",
+                "quarter": [{
+                        "id": "1",
+                        "course": [{
+                                "id": "PE",
+                                "name": "Probabilidad y Estadística"
+                            },
+                            {
+                                "id": "PLP",
+                                "name": "Principios de Lenguages de la Programación"
+                            },
+                            {
+                                "id": "SO1",
+                                "name": "Sistemas Operativos I"
+                            },
+                            {
+                                "id": "DBD",
+                                "name": "Diseño de Base de Datos"
+                            },
+                            {
+                                "id": "AS",
+                                "name": "Arquitecturas de Software"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "course": [{
+                                "id": "AA",
+                                "name": "Análisis de Algoritmos "
+                            },
+                            {
+                                "id": "LP",
+                                "name": "Laboratorio de Programación"
+                            },
+                            {
+                                "id": "LCC",
+                                "name": "Lógica para Ciencias de la Computación"
+                            },
+                            {
+                                "id": "RC1",
+                                "name": "Redes de Computadoras I"
+                            },
+                            {
+                                "id": "GPDS",
+                                "name": "Gestión de Proyectos de Desarrollo de Software"
+                            },
+                            {
+                                "id": "GBD",
+                                "name": "Gestión de Base de Datos"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "4",
+                "name": "Cuarto Año",
+                "quarter": [{
+                        "id": "1",
+                        "course": [{
+                                "id": "PCP",
+                                "name": "Planificación y Control de Proyectos"
+                            },
+                            {
+                                "id": "SI1",
+                                "name": "Sistemas de Información I"
+                            },
+                            {
+                                "id": "MPN ",
+                                "name": "Modelado de Procesos de Negocios"
+                            },
+                            {
+                                "id": "ER",
+                                "name": "Especificación de Requerimientos"
+                            },
+                            {
+                                "id": "SP",
+                                "name": "Sistemas Paralelos"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "course": [{
+                                "id": "IA",
+                                "name": "Inteligencia Artificial"
+                            },
+                            {
+                                "id": "EDS",
+                                "name": "Especificación de Diseño de Software"
+                            },
+                            {
+                                "id": "DMD",
+                                "name": "Depósito y Minería de Datos"
+                            },
+                            {
+                                "id": "SI2",
+                                "name": "Sistemas de Información II"
+                            },
+                            {
+                                "id": "LBD",
+                                "name": "Laboratorio de Bases de Datos"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "5",
+                "name": "Quinto Año",
+                "quarter": [{
+                        "id": "1",
+                        "course": [{
+                                "id": "SI",
+                                "name": "Sistemas Inteligentes"
+                            },
+                            {
+                                "id": "ASI",
+                                "name": "Auditoría de los Sistemas de Información"
+                            },
+                            {
+                                "id": "VVS",
+                                "name": "Verificación y Validación de Software"
+                            },
+                            {
+                                "id": "LPD",
+                                "name": "Laboratorio de Programación Distribuida"
+                            },
+                            {
+                                "id": "E1",
+                                "name": "Electiva I"
+                            },
+                            {
+                                "id": "T1",
+                                "name": "Trabajo de Tesis"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "course": [{
+                                "id": "SIW",
+                                "name": "Sistemas de Información para la Web"
+                            },
+                            {
+                                "id": "APS",
+                                "name": "Aspectos Profesionales y Sociales"
+                            },
+                            {
+                                "id": "RSP",
+                                "name": "Reingeniería de Software y Procesos"
+                            },
+                            {
+                                "id": "CVS",
+                                "name": "Contrucción y Validación de Software"
+                            },
+                            {
+                                "id": "E2",
+                                "name": "Electiva II"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "PI",
+        "name": "Profesorado de Informática",
+        "year": [{
+                "id": "1",
+                "name": "Primer Año",
+                "quarter": [{
+                        "id": "1",
+                        "course": [{
+                                "id": "Ped",
+                                "name": "Pedagogía"
+                            },
+                            {
+                                "id": "RPA",
+                                "name": "Resolución de Problemas y Algoritmos"
+                            },
+                            {
+                                "id": "IC",
+                                "name": "Introducción a la Computación"
+                            },
+                            {
+                                "id": "MSI",
+                                "name": "Modelados y Sistemas de la Información"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "course": [{
+                                "id": "ETC",
+                                "name": "Elementos de Teoria de la Computación"
+                            },
+                            {
+                                "id": "DDA",
+                                "name": "Desarrollo de Algoritmos"
+                            },
+                            {
+                                "id": "MODATOS",
+                                "name": "Modelado de Datos"
+                            },
+                            {
+                                "id": "Psico1",
+                                "name": "Psicología I"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "2",
+                "name": "Segundo Año",
+                "quarter": [{
+                        "id": "1",
+                        "course": [{
+                                "id": "CDI",
+                                "name": "Calculo Diferencial e Integral"
+                            },
+                            {
+                                "id": "POO",
+                                "name": "Programación Orientada a Objetos"
+                            },
+                            {
+                                "id": "TC1",
+                                "name": "Teoría de la Computación I"
+                            },
+                            {
+                                "id": "EDD",
+                                "name": "Estructura de Datos"
+                            },
+                            {
+                                "id": "IT1",
+                                "name": "Inglés Técnico I"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "course": [{
+                                "id": "TC2",
+                                "name": "Teoría de la Computación II"
+                            },
+                            {
+                                "id": "IR",
+                                "name": "Ingeniería de Requierimientos"
+                            },
+                            {
+                                "id": "AOC1",
+                                "name": "Arquitectura y Organización de Computadoras I"
+                            },
+                            {
+                                "id": "DG",
+                                "name": "Didáctica General"
+                            },
+                            {
+                                "id": "IT2",
+                                "name": "Inglés Técnico II"
+                            },
+                            {
+                                "id": "PC",
+                                "name": "Programación Concurrente"
+                            }
+
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "3",
+                "name": "Tercer Año",
+                "quarter": [{
+                        "id": "1",
+                        "course": [{
+                                "id": "AS",
+                                "name": "Arquitecturas de Software"
+                            },
+                            {
+                                "id": "SO1",
+                                "name": "Sistemas Operativos I"
+                            },
+                            {
+                                "id": "TICE",
+                                "name": "Tecnologías de la Información y Comunicación en la Educación"
+                            },
+                            {
+                                "id": "Psico2",
+                                "name": "Psicología II"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "course": [{
+                                "id": "MCC",
+                                "name": "Métodos Computacionales para el Cálculo"
+                            },
+                            {
+                                "id": "RC1",
+                                "name": "Redes de Computadoras I"
+                            },
+                            {
+                                "id": "DSIE",
+                                "name": "Diseño de Sistemas Informáticos de la Información y Comunicación en la Educación"
+                            },
+                            {
+                                "id": "LTICE",
+                                "name": "Laboratorio de Tecnologías de la Información y Comunicación en la Educación"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "4",
+                "name": "Cuarto Año",
+                "quarter": [{
+                        "id": "1",
+                        "course": [{
+                                "id": "PE",
+                                "name": "Probabilidad y Estadística"
+                            },
+                            {
+                                "id": "LSIE",
+                                "name": "Laboratorio de Sistemas Informáticos para Educación"
+                            },
+                            {
+                                "id": "DE",
+                                "name": "Didáctica Específica"
+                            },
+                            {
+                                "id": "PEA",
+                                "name": "Política Educacional Argentina"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "course": [{
+                                "id": "APS",
+                                "name": "Aspectos Profesionales y Sociales"
+                            },
+                            {
+                                "id": "TACC",
+                                "name": "Tópicos Avanzados en Ciencias de la Computación"
+                            },
+                            {
+                                "id": "Res",
+                                "name": "Residencia"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "TWEB",
+        "name": "Tecnicatura en Desarrollo WEB",
+        "year": [{
+                "id": "1",
+                "name": "Primer Año",
+                "quarter": [{
+                        "id": "1",
+                        "course": [{
+                                "id": "MG",
+                                "name": "Matemática General"
+                            },
+                            {
+                                "id": "IP",
+                                "name": "Introducción a la Programación"
+                            },
+                            {
+                                "id": "IT",
+                                "name": "Inglés Técnico"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "course": [{
+                                "id": "PELW",
+                                "name": "Programación Estática y Laboratorio Web"
+                            },
+                            {
+                                "id": "IPOO",
+                                "name": "Introducción a la Programación Orientada a Objetos"
+                            },
+                            {
+                                "id": "CBD",
+                                "name": "Conceptos de Bases de Datos"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "2",
+                "name": "Segundo Año",
+                "quarter": [{
+                        "id": "1",
+                        "course": [{
+                                "id": "PWD",
+                                "name": "Programación Web Dinámica"
+                            },
+                            {
+                                "id": "ASC",
+                                "name": "Arquitectura y Seguridad de Computadoras"
+                            },
+                            {
+                                "id": "DG",
+                                "name": "Diseño Gráfico"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "course": [{
+                                "id": "PWA",
+                                "name": "Programación Web Avanzada"
+                            },
+                            {
+                                "id": "ADDS",
+                                "name": "Análisis, Diseño y Documentación de Sistemas"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "3",
+                "name": "Tercer Año",
+                "quarter": [{
+                    "id": "1",
+                    "course": [{
+                            "id": "FI",
+                            "name": "Framework e Interoperabilidad"
+                        },
+                        {
+                            "id": "TF",
+                            "name": "Trabajo Final en Desarrollo Web"
+                        }
+                    ]
+                }]
+            }
+        ]
+    },
+    {
+        "id": "TASSL",
+        "name": "Tecnicatura en Administración de Sistemas y Software Libre",
+        "year": [{
+                "id": "1",
+                "name": "Primer Año",
+                "quarter": [{
+                        "id": "1",
+                        "course": [{
+                                "id": "IC",
+                                "name": "Introducción a la Computación"
+                            },
+                            {
+                                "id": "MG",
+                                "name": "Matemática General"
+                            },
+                            {
+                                "id": "IT",
+                                "name": "Inglés Técnico"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "course": [{
+                                "id": "IP",
+                                "name": "Introducción a la Programación"
+                            },
+                            {
+                                "id": "IAS",
+                                "name": "Introducción a la Administración de Sistemas"
+                            },
+                            {
+                                "id": "RD",
+                                "name": "Redes de Datos"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "2",
+                "name": "Segundo Año",
+                "quarter": [{
+                        "id": "1",
+                        "courses": [{
+                                "id": "SL",
+                                "name": "Software Libre"
+                            },
+                            {
+                                "id": "THS",
+                                "name": "Taller de Hardware y Software"
+                            },
+                            {
+                                "id": "AdS",
+                                "name": "Administración de Sistemas"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "courses": [{
+                                "id": "AdS",
+                                "name": "Administración de Servicios"
+                            },
+                            {
+                                "id": "SI",
+                                "name": "Sistemas de Información"
+                            },
+                            {
+                                "id": "AyS",
+                                "name": "Automatización y Scripting"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "3",
+                "name": "Tercer Año",
+                "quarter": [{
+                    "id": "1",
+                    "courses": [{
+                            "id": "ASA",
+                            "name": "Administración de Sistemas Avanzada"
+                        },
+                        {
+                            "id": "AL",
+                            "name": "Aplicaciones Libres"
+                        },
+                        {
+                            "id": "E",
+                            "name": "Electiva"
+                        }
+                    ]
+                }]
+            }
+        ]
+    }
+]
