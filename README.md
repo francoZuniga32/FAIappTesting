@@ -4,6 +4,13 @@ Testing repo for FAIapp
 
 #### Recursos: [Figma](https://www.figma.com/file/HOXZMTe6PzCkhs38nXc19D/FAIapp)
 
+## :signal_strength: Technologies
+
+* [Ionic v5](https://ionicframework.com/)
+* [Angular v10](https://angular.io/)
+* [Ionic/angular v5](https://www.npmjs.com/package/@ionic/angular)
+* [Ionic 5 open source Ionicons](https://ionicons.com/)
+
 ## :floppy_disk: Setup
 
 * Run `npm i` to install dependencies
